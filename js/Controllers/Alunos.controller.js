@@ -1,3 +1,5 @@
+import { AlunoModel } from "./../modules/Aluno.model.js";
+
 export class AlunosController {
   constructor(service, view) {
     view.render(service.alunos);
